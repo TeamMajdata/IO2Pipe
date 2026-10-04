@@ -1,0 +1,67 @@
+{
+  "ReconnectIntervalMs": 1000,
+  "Players": [
+    {
+      "PlayerIndex": 1,
+      "ButtonRing": {
+        "Enabled": true,
+        "VendorId": 3235,
+        "ProductId": 33,
+        "DevicePath": null,
+        "InputPlayerIndex": 1
+      },
+      "TouchPanel": {
+        "Enabled": true,
+        "PortName": "COM3",
+        "BaudRate": 9600,
+        "OverrideSensitivity": true,
+        "Sensitivities": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Led": {
+        "Enabled": true,
+        "PortName": "COM21",
+        "BaudRate": 115200,
+        "RefreshRateMs": 16,
+        "Brightness": 1.0,
+        "Throttler": true
+      }
+    },
+    {
+      "PlayerIndex": 2,
+      "ButtonRing": {
+        "Enabled": true,
+        "VendorId": 3235,
+        "ProductId": 33,
+        "DevicePath": null,
+        "InputPlayerIndex": 2
+      },
+      "TouchPanel": {
+        "Enabled": true,
+        "PortName": "COM4",
+        "BaudRate": 9600,
+        "OverrideSensitivity": true,
+        "Sensitivities": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Led": {
+        "Enabled": true,
+        "PortName": "COM22",
+        "BaudRate": 115200,
+        "RefreshRateMs": 16,
+        "Brightness": 1.0,
+        "Throttler": true
+      }
+    }
+  ]
+}
